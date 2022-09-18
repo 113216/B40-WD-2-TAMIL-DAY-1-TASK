@@ -1,0 +1,30 @@
+DAY 1 TASK
+
+                                                      A Difference between HTTP 1 VS HTTP 2
+
+HTTP 1 :
+        
+             * Browsers Make Several Requets For One Piece of Information At a Time
+             * It Repeats This Untill a web Page is Fully Loaded
+             * This is Most Web Pages Loaded Slowly
+             * Syntax and Semantics are Separeted
+             * It Works on the Textual Formate
+             * There is head of line Blocking the blocks Allthe requests Behind it until it Doesn't get its all resources
+             * It compresses data by itself
+             * It requests resources inlining for use getting multiple pages
+
+HTTP 2 :
+
+              * Browsers Requests Multiple pieces of the information at a Time
+              * The server will them push them all at one when required
+              * As a result it makes a website load Much Quicker
+              * Addition of server push function (send related file without request)
+              * It works on the Binary Protocal
+              * It allows Multiplxing So one TCP connectin is requried for multiple requestes
+              * It uses PUSH frame by server that collects all multiple pages
+              * It uses HPACK for For data Compression
+
+               
+
+
+
